@@ -2,7 +2,7 @@ class Foo:
 
     def __init__(self) -> None:
         self._what = "world"
-        self._action: str|None = None
+        self._action: str|None = None  # noqa
 
     def action(self, action: str) -> None:
         self._action = action
