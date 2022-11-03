@@ -37,25 +37,12 @@ build-backend = "hatchling.build"
 [tool.hatch.version]
 source = "vcs"
 
+
 [tool.hatch.build]
 skip-excluded-dirs = true
 packages = [
     "src/properly"
 ]
-#
-#[build.targets.wheel.hooks.mypyc]
-#dependencies = ["hatch-mypyc"]
-#
-#[build.targets.wheel.hooks.mypyc.options]
-#opt_level = "3"
-#
-#[tool.hatch.build.targets.wheel.hooks.mypyc]
-#dependencies = ["hatch-mypyc"]
-
-#[tool.hatch.build.targets.sdist]
-#exclude = [
-#    "/.gitignore",
-#]
 
 [project.urls]
 "Homepage" = "https://github.com/geirem/properly"
