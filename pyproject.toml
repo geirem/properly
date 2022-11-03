@@ -3,7 +3,6 @@ dependencies = [
     'requests >= 2.28.1',
 ]
 name = "properly"
-version = "0.0.0"
 authors = [
     { name="Geir Ekeberg Emblemsvag", email="geiremb@gmail.com" },
 ]
@@ -16,6 +15,7 @@ classifiers = [
     "License :: OSI Approved :: MIT License",
     "Operating System :: MacOS",
 ]
+dynamic = ["version"]
 
 [project.optional-dependencies]
 dev = [
@@ -24,10 +24,31 @@ dev = [
     'flake8 >= 5.0.4',
 ]
 
-[build-system]
-requires = ["flit_core>=3.2"]
-build-backend = "flit_core.buildapi"
 
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.version]
+path = "version.py"
+
+[tool.hatch.build]
+#sources = ["src/properly"]
+skip-excluded-dirs = true
+packages = [
+    "src/properly"
+]
+
+[tool.hatch.build.targets.sdist]
+exclude = [
+    "/.gitignore",
+]
+#
+#[tool.hatch.build.targets.wheel]
+#sources = ["src"]
+#packages = [
+#    "properly"
+#]
 
 [project.urls]
 "Homepage" = "https://github.com/geirem/properly"
