@@ -4,6 +4,18 @@ dependencies = [
 ]
 name = "properly"
 version = "0.0.0"
+authors = [
+    { name="Geir Ekeberg Emblemsvag", email="geiremb@gmail.com" },
+]
+description = "Demonstrates proper Python app setup and CI on GitHub."
+readme = "README.rst"
+requires-python = ">=3.11"
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "Environment :: Console",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: MacOS",
+]
 
 [project.optional-dependencies]
 dev = [
@@ -12,12 +24,14 @@ dev = [
     'flake8 >= 5.0.4',
 ]
 
-#[build-system]
-## TODO: Properly.
-#requires = [
-#    "setuptools ~= 58.0",
-#    "cython ~= 0.29.0"
-#]
+[build-system]
+requires = ["flit_core>=3.2"]
+build-backend = "flit_core.buildapi"
+
+
+[project.urls]
+"Homepage" = "https://github.com/geirem/properly"
+"Bug Tracker" = "https://github.com/geirem/properly/issues"
 
 [tool.pytest.ini_options]
 minversion = "6.0"
