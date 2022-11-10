@@ -42,7 +42,11 @@ jobs:
         run: hatch build
       - name: Get version
         id: version
-        run: version=$(hatch version) >> $GITHUB_OUTPUT
+        run: |
+          hatch version
+          version=$(hatch version)
+          echo $version
+          echo version=$version >> $GITHUB_OUTPUT
       - uses: actions/upload-artifact@v2
         with:
           name: properly
