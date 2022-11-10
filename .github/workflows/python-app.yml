@@ -43,6 +43,7 @@ jobs:
       - name: Get version
         id: version
         run: |
+          ls dist/
           hatch version
           version=$(hatch version)
           echo $version
