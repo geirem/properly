@@ -32,4 +32,4 @@ Contents
    :caption: Contents:
 
    usage
-   apidoc/modules
+   api-docs/modules.rst
