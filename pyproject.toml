@@ -45,6 +45,7 @@ packages = ["src/properly"]
 
 
 [tool.hatch.build]
+#TODO: Add build dir!
 skip-excluded-dirs = true
 packages = [
     "src/properly"
