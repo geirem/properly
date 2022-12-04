@@ -2,18 +2,19 @@
 src
 ***
 
-*   `properly package <Properly>`_
-    *   `Subpackages <Properly#subpackages>`_
-        *   `properly.domain package <Properly.Domain>`_
-            *   `Submodules <Properly.Domain#submodules>`_
+*   `properly package <Properly.rst>`_
+    *   `Subpackages <Properly.rst#subpackages>`_
+        *   `properly.domain package <Properly.Domain.rst>`_
+            *   `Submodules <Properly.Domain.rst#submodules>`_
             *   `properly.domain.Bar module
-                <Properly.Domain#module-properly.domain.Bar>`_
+                <Properly.Domain.rst#module-properly.domain.Bar>`_
             *   `Module contents
-                <Properly.Domain#module-properly.domain>`_
-        *   `properly.lib package <Properly.Lib>`_
-            *   `Submodules <Properly.Lib#submodules>`_
+                <Properly.Domain.rst#module-properly.domain>`_
+        *   `properly.lib package <Properly.Lib.rst>`_
+            *   `Submodules <Properly.Lib.rst#submodules>`_
             *   `properly.lib.Foo module
-                <Properly.Lib#module-properly.lib.Foo>`_
-            *   `Module contents <Properly.Lib#module-properly.lib>`_
-    *   `Module contents <Properly#module-properly>`_
-        *   `setup() <Properly#properly.setup>`_
+                <Properly.Lib.rst#module-properly.lib.Foo>`_
+            *   `Module contents
+                <Properly.Lib.rst#module-properly.lib>`_
+    *   `Module contents <Properly.rst#module-properly>`_
+        *   `setup() <Properly.rst#properly.setup>`_

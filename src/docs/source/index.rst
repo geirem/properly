@@ -25,4 +25,4 @@ Contents
    :caption: Contents:
 
    usage
-   api-docs/modules.rst
+   Api-Docs/modules.rst
