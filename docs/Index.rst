@@ -22,5 +22,5 @@ Contents:
 
 *   `Usage <Usage.rst>`_
     *   `Installation <Usage.rst#installation>`_
-*   `src <Api-Docs/Modules.rst>`_
-    *   `properly package <Api-Docs/Properly.rst>`_
+*   `src <Api/Modules.rst>`_
+    *   `properly package <Api/Properly.rst>`_
