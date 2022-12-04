@@ -7,19 +7,12 @@ import os
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 import pathlib
-import pprint
 import sys
 
 sys.path.insert(0, pathlib.Path(__file__).parents[2].resolve().as_posix())
-
-# sys.path.insert(0, '.')
-# sys.path.insert(0, os.path.abspath('../../../build'))
-# sys.path.insert(0, os.path.abspath('../../../build/docs'))
-# sys.path.insert(0, os.path.abspath('../../../build/.doctrees'))
-# sys.path.insert(0, os.path.abspath('../../../build/docs/api-docs'))
-# pprint.pprint(sys.path)
+sys.path.insert(0, pathlib.Path(__file__).parents[3].resolve().as_posix() + "/src/")
 sys.path.append(os.path.abspath('exts'))
-sys.path.insert(0, pathlib.Path(__file__).parents[2].resolve().as_posix() + "/src/")
+print(sys.path)
 
 project = 'properly'
 copyright = '2022, Geir'
@@ -62,5 +55,5 @@ def rst_file_transform(docname: str) -> str:
 
 def rst_link_transform(docname: str) -> str:
     if docname == 'index':
-        return 'wiki'
-    return 'wiki/' + docname.title()
+        return 'docs'
+    return 'docs/' + docname.title()

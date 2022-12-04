@@ -17,13 +17,6 @@ Check out the :doc:`usage` section for further information, including how to
 
 
 
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
-
 Contents
 --------
 

@@ -9,18 +9,8 @@ offers no *simple* and *intuitive* API.
 
 Note: This project is under active development.
 
-Check out the `Usage <wiki/Usage>`_ section for further information,
-including how to `install <wiki/Usage#installation>`_ the project.
-
-
-Indices and tables
-******************
-
-*   `Index <wiki/Genindex>`_
-
-*   `Module Index <wiki/Py-Modindex>`_
-
-*   `Search Page <wiki/Search>`_
+Check out the `Usage <docs/Usage>`_ section for further information,
+including how to `install <docs/Usage#installation>`_ the project.
 
 
 Contents
@@ -30,7 +20,7 @@ Contents
 Contents:
 ^^^^^^^^^
 
-*   `Usage <wiki/Usage>`_
-    *   `Installation <wiki/Usage#installation>`_
-*   `src <wiki/Api-Docs/Modules>`_
-    *   `properly package <wiki/Api-Docs/Properly>`_
+*   `Usage <docs/Usage>`_
+    *   `Installation <docs/Usage#installation>`_
+*   `src <docs/Api-Docs/Modules>`_
+    *   `properly package <docs/Api-Docs/Properly>`_
