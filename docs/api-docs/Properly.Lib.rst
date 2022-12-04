@@ -19,3 +19,5 @@ properly.lib.Foo module
 
 Module contents
 ===============
+
+lib pydoc

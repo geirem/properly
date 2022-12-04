@@ -7,8 +7,9 @@ src
         *   `properly.domain package <Properly.Domain>`_
             *   `Submodules <Properly.Domain#submodules>`_
             *   `properly.domain.Bar module
-                <Properly.Domain#properly-domain-bar-module>`_
-            *   `Module contents <Properly.Domain#module-contents>`_
+                <Properly.Domain#module-properly.domain.Bar>`_
+            *   `Module contents
+                <Properly.Domain#module-properly.domain>`_
         *   `properly.lib package <Properly.Lib>`_
             *   `Submodules <Properly.Lib#submodules>`_
             *   `properly.lib.Foo module
