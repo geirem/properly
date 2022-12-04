@@ -56,5 +56,5 @@ def rst_file_transform(docname: str) -> str:
 def rst_link_transform(docname: str) -> str:
     # if docname == 'index':
     #     return 'docs'
-    return docname.title()
+    return docname.title() + rst_file_suffix
     # return 'docs/' + docname.title()
