@@ -9,7 +9,7 @@ Best practices layout and configurations.
 
 Documentation
 -----
-`docs <docs/index.html>`_
+`docs <docs/Index.rst>`_
 
 TODO
 ----
