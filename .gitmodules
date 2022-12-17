@@ -1,0 +1,6 @@
+[submodule "docs/properly.wiki"]
+	path = docs/properly.wiki
+	url = https://github.com/geirem/properly.wiki.git
+[submodule "properly.wiki"]
+	path = docs
+	url = https://github.com/geirem/properly.wiki.git

@@ -30,17 +30,17 @@ extensions = [
     'sphinx.ext.napoleon',
     'sphinxcontrib.restbuilder',
 ]
-autosummary_generate = True  # Turn on sphinx.ext.autosummary
+autosummary_generate = True  # Turn on sphinx.ext.autosummary  Needed without autosummary?
 templates_path = ['_templates']
 exclude_patterns = []
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
-
 html_theme = 'classic'
 html_static_path = ['_static']
 
 # Defines RST output for GitHub Wiki
+# See https://pythonhosted.org/sphinxcontrib-restbuilder/
 rst_file_suffix = '.rst'
 rst_link_suffix = ''
 rst_line_width = 78
