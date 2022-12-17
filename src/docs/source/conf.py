@@ -48,13 +48,13 @@ rst_indent = 4
 
 
 def rst_file_transform(docname: str) -> str:
-    # if docname == 'index':
-    #     docname = 'home'
+    if docname == 'index':
+        docname = 'home'
     return docname.title() + rst_file_suffix
 
 
 def rst_link_transform(docname: str) -> str:
-    # if docname == 'index':
-    #     return 'docs'
-    return docname.title() + rst_file_suffix
-    # return 'docs/' + docname.title()
+    if docname == 'index':
+        return 'docs'
+    # return docname.title() + rst_file_suffix
+    return 'docs/' + docname.title()

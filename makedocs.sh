@@ -1,6 +1,5 @@
 #!/usr/bin/env sh
-rm -rf docs/
-mkdir docs/
+rm -rf docs/*
 rm -rf build/docs/
 mkdir build/docs/
 sphinx-apidoc -f -o build/docs/source/Api/  src/
